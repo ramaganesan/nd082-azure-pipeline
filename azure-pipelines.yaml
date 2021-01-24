@@ -16,5 +16,5 @@ stages:
       displayName: DISPLAY NAME
       inputs:
         script: 'COMMAND StarterAPIs.json'
-        workingDirectory: starter-code/automatedtesting/postman
+        workingDirectory: '$(System.DefaultWorkingDirectory)'
     
