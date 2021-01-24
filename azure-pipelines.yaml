@@ -13,7 +13,7 @@ stages:
         script: 'npm install newman'
         workingDirectory: '$(System.DefaultWorkingDirectory)'
     - task: CmdLine@2
-      displayName: DISPLAY NAME
+      displayName: Running Unit Test
       inputs:
         script: 'newman run starterapis.json'
         workingDirectory: '$(System.DefaultWorkingDirectory)'
